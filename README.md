@@ -10,7 +10,7 @@ Objectives: Clear and concise explanation of what your analysis aims to achieve.
 
 Example: “This report analyzes customer churn data to identify the key drivers of customer attrition in Q1 2025.”
 
-📊 2. Describe the Dataset (Data Description)
+2. Describe the Dataset (Data Description)
 Source: Where the data came from.
 
 Structure: Number of rows, columns, types of variables (categorical, numerical, etc.).
@@ -21,7 +21,7 @@ Limitations: Any known issues like missing data, biases, or anomalies.
 
 Example: “The dataset consists of 10,000 customer records, including demographic data, usage patterns, and subscription status.”
 
-🧹 3. Data Cleaning & Preparation
+3. Data Cleaning & Preparation
 Explain how you handled:
 
 Missing values
@@ -36,7 +36,7 @@ Include relevant code snippets or visuals (if needed).
 
 Example: “Null values in ‘age’ were imputed using the median. One-hot encoding was applied to the ‘region’ column.”
 
-📈 4. Exploratory Data Analysis (EDA)
+4. Exploratory Data Analysis (EDA)
 Use visualizations (histograms, boxplots, scatter plots, correlation heatmaps).
 
 Highlight patterns, trends, or correlations.
@@ -51,7 +51,7 @@ Which features are related?
 
 “Churn rate is significantly higher among users with monthly contracts compared to annual contracts.”
 
-📊 5. Statistical Analysis or Modeling
+ 5. Statistical Analysis or Modeling
 If applicable, explain:
 
 Hypothesis testing
@@ -66,7 +66,7 @@ Include model performance metrics: accuracy, R², confusion matrix, AUC, etc.
 
 “A logistic regression model was trained to predict churn, achieving an accuracy of 85% on the test set.”
 
-📌 6. Key Findings / Insights
+ 6. Key Findings / Insights
 Summarize the most important insights from your analysis.
 
 Use bullet points or tables for clarity.
@@ -75,7 +75,7 @@ Clearly link back to your original objectives.
 
 “Customers with tenure < 6 months are 3x more likely to churn.”
 
-📣 7. Recommendations
+ 7. Recommendations
 Actionable suggestions based on findings.
 
 What should stakeholders do with this information?
@@ -90,6 +90,6 @@ Code, additional charts, detailed methodology.
 Python: pandas, matplotlib, seaborn, scikit-learn, statsmodels
 
 
-BI Tools: Power BI, Tableau, Looker
+BI Tools: Tableau
 
-Notebooks: Jupyter, RMarkdown
+Notebooks: Jupyter
